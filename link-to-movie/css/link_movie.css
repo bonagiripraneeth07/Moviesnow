@@ -1,0 +1,99 @@
+.header_link{
+    background-color: black;
+    width:100%; 
+   
+  
+}
+.logo_link{
+      position: absolute;
+     width: 200px;
+     
+}
+.start_link{
+    width: 100%;
+    height: 800px;
+}
+.movies_images_link{
+     width: 100%;
+     height: 100%;
+    object-fit:cover;
+}
+.movie_description_link{
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    color: rgb(7, 7, 7);
+    font-family: 'Poppins', sans-serif; 
+    cursor:default;
+ 
+}
+.movie_title_link{
+    font-size: 100px;
+    margin-bottom: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+     
+}
+.movie_detils_link{
+    font-size: 40px;
+}
+.small_description_link{
+    font-size: 30px;
+    color: black;
+    font-family: 'Poppins', sans-serif; 
+    cursor:default;
+}
+.movies_playbtn_link{
+    color: white;
+    background-color: rgba(200, 17, 17, 0.789);
+    border-style: solid;
+    border-radius: 6px;
+    width: 200px;
+    height: 70px;
+     margin-right: 10px;
+    border-style: none;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif; 
+}
+.movies_playbtn_link:hover{
+    opacity: 0.8;
+    color: rgba(200, 17, 17, 0.789);
+    background-color: white;
+}
+.movies_morebtn_link{
+    color: white;
+    background-color: rgba(200, 17, 17, 0.789);
+    border-style: solid;
+    border-radius: 6px;
+    width: 200px;
+    height: 70px;
+    border-style: none;
+    font-size: 30px;
+    cursor: pointer; 
+    font-family: 'Poppins', sans-serif; 
+}
+.movies_morebtn_link:hover{
+color: rgba(252, 252, 252, 0.789);
+background-color: grey;
+}
+.movie_trailer_link{
+    display: none;
+  position: absolute;
+    background-color: black;
+    color: white;
+    width:100%;
+    height: 00px;
+}
+.close_movie_link{
+    position: absolute;
+   left:  96%;
+   top: 15%;
+   border-style: none;
+   background-color: transparent;
+   cursor: pointer;
+}
+.close_movie_link:hover{
+border-style: solid;
+border-color: red;
+color: white;
+}

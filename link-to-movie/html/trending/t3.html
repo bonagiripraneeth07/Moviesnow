@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MoviesNow</title>
+    <link rel="icon" type="" href="/images/webicon/clapperboard.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Roboto+Condensed:wght@100;200;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/link-to-movie/css/link_movie.css" />
+  </head>
+  <body style="margin: 0px">
+    <div class="header_link">
+      <div class="movie_trailer_link">
+        <iframe
+          width="100%"
+          height="900px"
+          src="https://www.youtube.com/embed/HhesaQXLuRY?si=JEWEOQEXxuZ3o-IC"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <button class="close_movie_link">close X</button>
+      </div>
+      <img class="logo_link" src="/images/logo/MOVIESNOW.png" alt="" />
+    </div>
+    <div class="start_link">
+      <img
+        class="movies_images_link"
+        src="/link-to-movie/images/trending/3.jpg"
+        alt=""
+      />
+      <div class="movie_description_link" style="color: white">
+        <h2 class="movie_title_link">Breaking Bad</h2>
+        <p class="movie_detils_link">2008 ‧ Drama ‧ 5 seasons</p>
+        <p class="small_description_link" style="color: white">
+          Walter White, a chemistry teacher, discovers that he has cancer
+          <br />and decides to get into the meth-making business to repay his
+          <br />
+          medical debts. His priorities begin to change when he partners with
+          Jesse.
+        </p>
+
+        <button class="movies_playbtn_link">play ▶</button>
+        <button class="movies_morebtn_link">moreinfo</button>
+      </div>
+    </div>
+
+    <script src="/jsquery/jquery-3.7.1.js"></script>
+    <script>
+      $(".movies_playbtn_link").click(function () {
+        $(".movie_trailer_link").show();
+        $(".movies_images_link").hide();
+        $(".movie_description_link").hide();
+      });
+      $(".close_movie_link").click(function () {
+        $(".movies_images_link").show();
+        $(".movie_description_link").show();
+        $(".movie_trailer_link").hide();
+        location.reload(true);
+      });
+    </script>
+  </body>
+</html>

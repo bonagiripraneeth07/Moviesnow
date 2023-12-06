@@ -1,0 +1,96 @@
+#loginpopup{
+    width: 1000px;
+      height: 560px;
+    background-color: rgb(255, 255, 255);
+    display: none; 
+    position: fixed;
+    left: 20%;
+    top: 10%;
+    border-style: none;
+    
+}
+.closebtn{
+    position: absolute;
+    left: 97%;
+    top: 1%;
+    font-size: 20px;
+    border-style: none;
+    background: transparent;
+    color: rgb(249, 249, 249);
+    cursor: pointer;
+}
+
+.video1{
+    width: 1000px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 2px;
+     filter: blur(4px);
+}
+.login_heading{
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;  
+}
+.login_divison{
+    position: absolute;
+    left: 36%;
+    top: 18%;
+     
+}
+.popup-email{
+    margin-top:20px ;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.popup-password{
+    margin-top:20px ;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.popup-signin{
+    margin-top: 8px;
+     position: absolute;
+     left: 28%;
+     border-radius: 3px;
+     padding: 3px;
+     width: 90px;
+     height:30px;
+     font-family: 'Poppins', sans-serif;
+     border-style: none;
+     background-color: red;
+     color: white;
+cursor: pointer;
+}
+.popup-signin:hover{
+    opacity: 0.8;
+    background-color: white;
+     color:  red;
+     
+}
+.signup_p{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.signup_btn{
+    margin: 10px;
+    border-style: none;
+    border-radius: none;
+    background-color: transparent;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}

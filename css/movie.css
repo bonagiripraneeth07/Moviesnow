@@ -1,0 +1,144 @@
+ 
+.logo{
+    width: 150px;
+    padding: 10px;
+    
+    
+}
+ option {
+    color: rgb(0, 0, 0);
+    background-color: rgb(200, 200, 200);
+     
+ }
+ 
+.headertag{
+    background-color: black;
+    height: 50px;
+    margin:none;
+}
+ 
+.signinbtn1{
+    position: absolute;
+    border-style: none ;
+    cursor: pointer;
+    right: 300px;
+    color: rgba(253, 253, 253, 0.921);
+    background-color: rgba(190, 21, 21, 0.951);
+   font-size: medium;
+    top: 19px;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif; 
+}
+ 
+.langheaderdiv{
+    position: absolute;
+    right: 100px;
+    top: 18px;
+    color: white;
+    font-size: medium;
+    font-family: 'Roboto Condensed', sans-serif;   
+}
+.Language_selection_header{
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+
+}
+.navbar{
+    align-content: center;
+    align-items: center;
+    display:flex;
+    height: 59px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    backdrop-filter: blur(10px);
+   box-shadow  : rgb(24, 220, 214) 0px 20px 30px -10px; 
+  }
+
+.navbar_glow{
+    justify-content: space-between;
+    position: relative;
+    margin: 70px;
+    font-size: 25px; 
+    text-decoration: none;
+    align-content: center;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.784);
+} 
+a{
+    text-decoration: none;
+    color: rgb(252, 247, 247);
+}
+a:hover{
+    color: red;
+}
+ .navbar_glow::before{
+    content: '';
+    position: absolute;
+    width:0;
+    top: 100%;
+    height: 2px;
+    background-color: rgb(251, 4, 4);
+    transition: 500ms;
+}
+.navbar_glow:hover::before{
+    width: 100%; 
+}
+.gernesection{
+     color: white;
+     font-family: 'Poppins', sans-serif; 
+    font-weight: 400;
+    font-size:25px;
+     
+    
+}
+option{  
+    font-family: 'Poppins', sans-serif;
+
+}
+ 
+ 
+#genreselectionid{
+padding: 6px;
+margin-left: 0px;
+border-radius: 10px;
+cursor: pointer;
+
+} 
+.genre_for_animation::before{
+content: '';
+width: 0;
+top: 100%;
+height: 2px;
+margin-right: 0;
+background-color: red;
+}
+.genre_for_animation:hover::before{
+    width: 100%;
+}
+ 
+ 
+.seacrbar{
+    padding: 8px;
+    position: relative;
+    margin-left: 40px;
+    align-content: center;
+    left: 37px;
+    top: 3px;
+    border-radius: 10px;
+    border-style: none;
+    width: 334px;
+}
+.tempimg{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+ 
+ 
+ 
